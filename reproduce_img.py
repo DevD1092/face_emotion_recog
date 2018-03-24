@@ -11,6 +11,7 @@ parser.add_argument('-o', '--output', required=True, help="path of the output di
 args = parser.parse_args()
 
 w, h = 48, 48
+
 image = np.zeros((h, w), dtype=np.uint8)
 id = 1
 with open(args.file, 'rb') as csvfile:
