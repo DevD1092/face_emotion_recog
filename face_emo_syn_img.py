@@ -28,6 +28,7 @@ from keras.preprocessing.image import ImageDataGenerator
 #Image parameters
 w, h = 48, 48
 
+
 #load datasets
 data = numpy.loadtxt("fer2013_input_1.csv", delimiter = " ")
 data_Y = numpy.loadtxt("fer2013_output_1.csv", delimiter = " ")
