@@ -18,6 +18,7 @@ x = x.reshape((1,) + x.shape)
 #Number of variations of the image to be generated
 no_gen = 9
 
+
 i = 0
 for batch in datagen.flow(x, batch_size=1,
                           save_to_dir='1999_mod', save_prefix='3', save_format='jpeg'):
