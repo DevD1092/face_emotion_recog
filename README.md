@@ -22,6 +22,8 @@ This repository contains two folders, four python scripts, and a Summary_sup_lea
 
 * Summary_sup_learn -- Summary of the CNN architecture, parameter tuning and their impacts, and final accuracy results.
 
+* Final_results -- A summary of the final results achieved both from the supervised and semi-supervised learning.
+
 * Folder - semi -- Contains the source code files for semi-supervised learning implementation (using Ladder network) -- Folder details are as below.
 
 * cnn_clean.py -- For saving the clean encoder model and weights.
