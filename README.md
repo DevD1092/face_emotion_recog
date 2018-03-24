@@ -1,6 +1,14 @@
 # Repository details
+This project aims to solve the problem of facial emotion recognition, which is a kaggle challenge of 2013. <https://www.kaggle.com/c/challenges-in-representation-learning-facial-expression-recognition-challenge>
 
-Contains two folders, four python scripts, and a Summary_Phase_1 file. The CNN is implemented with keras (tensorflow as backend).
+To tackle the problem of multi-class categorization, two approaches are adopted:
+
+1. Fully supervised learning: Fully supervised deep Coonvolutional Neural Network (CNN) architecture for solving the problem.
+2. Semi-supervised learning: Semi-supervised architecture adopting the concept of Ladder Network (a deep denoising autoencoder) <https://arxiv.org/abs/1507.02672>
+
+Implementation of the architectures is based on keras (using Tensorflow as the backend) and the dataset is adopted from the kaggle challenge as mentioned earlier. The deatils of code snippets in the repository are described below.
+
+This repository contains two folders, four python scripts, and a Summary_sup_learn file. The CNN is implemented with keras (tensorflow as backend).
 
 * Folder - Synthesized images -- Contains the example of images generated with augmentation (blur, rotation, flip, width and height shift).
 
@@ -12,7 +20,7 @@ Contains two folders, four python scripts, and a Summary_Phase_1 file. The CNN i
 
 * face_emo_syn.py -- Script for training and testing the CNN on the synthetic images from the dataset FER2013.
 
-* Summary_Phase_1 -- Summary of the CNN architecture, parameter tuning and their impacts, and final accuracy results.
+* Summary_sup_learn -- Summary of the CNN architecture, parameter tuning and their impacts, and final accuracy results.
 
 * Folder - semi -- Contains the source code files for semi-supervised learning implementation (using Ladder network) -- Folder details are as below.
 
